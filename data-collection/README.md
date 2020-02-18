@@ -1,13 +1,13 @@
 # pdf-merger.py usage
 
-Put all complete system PDF files into one folder and all incomplete PDF files into another. All complete PDF files must follow the naming convention *\[file id\]a.pdf* and for incomplete PDF files *\[file id\]b.pdf*.
+Put all complete system PDF files into one folder and all incomplete PDF files into another. All complete PDF files must follow the naming convention **\[file id\]a.pdf** and for incomplete PDF files **\[file id\]b.pdf**.
 
 Create a folder in which to store the merged PDF files that will be generated.
 
 pdf-merger takes 3 command line arguments:
-\[1\] path to the folder containing complete PDF files
-\[2\] path to the folder containing incomplete PDF files
-\[3\] path to the folder in which merged PDF files will be stored
+<br>\[1\] path to the folder containing complete PDF files
+<br>\[2\] path to the folder containing incomplete PDF files
+<br>\[3\] path to the folder in which merged PDF files will be stored
 
 Dependencies:
 - Python installation (3.6+ tested)
