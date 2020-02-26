@@ -1,0 +1,21 @@
+{
+    "home" : "/home/admin/program-data/",
+    "image-files" :
+    {
+        "root-dir" : "images",
+        "categories" : ["answer-key", "student-submission"],
+        "supported-file-ext" : ["jpg", "jpeg"],
+        "fname-def" : "[ID]_[YYYY]-[MM]-[DD]_[hh]-[mm]_[##].[EXT]"
+    },
+    "assignment-def-files" :
+    {
+        "root-dir" : "assignment-definitions",
+        "fname-def" : "[ID]_[YYYY]-[MM]-[DD]_[hh]-[mm]_[##].EXT"
+    },
+    "logging" :
+    {
+        "backend-error-logs-fpath" : "logs/backend-errors.log",
+        "backend-debug-logs-fpath" : "logs/backend-debugging.log"
+    }
+
+}

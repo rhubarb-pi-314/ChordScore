@@ -1,0 +1,7 @@
+{
+    "db-auth" :
+    {
+        "user" : "admin",
+        "password" : "admin@chordscore01"
+    }
+}
