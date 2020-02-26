@@ -1,0 +1,43 @@
+<script language="javascript">
+
+  
+function formatText(tag) {
+
+    var selectedText;
+  
+    if (window.getSelection) {
+  
+        selectedText = window.getSelection();
+    
+    }else if (document.selection) {
+  
+        selectedText = document.selection.createRange().text;
+    
+    }else{
+  
+  return false;
+  alert("error");
+    }
+  
+  
+    alert(selectedText);
+
+  
+  
+}
+
+</script>
+
+</head>
+
+<body>
+
+
+<form id="cms">
+<input type="button" id="bold" value="Bold" onclick="formatText ('b');" /><input type="button" id="italic" value="Italic" onclick="formatText('i');" /><br />
+<textarea id="format"></textarea><br />
+<input type="submit" name="submit" id="submit" value="Submit" />
+
+
+
+</form>

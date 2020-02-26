@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="ChordScore Home">
+   <meta name="keywords" content="Music">
+    <meta name="author" content="CSGang">
+    <title>ChordScore | Welcome</title>
+    <link rel="shortcut icon" href="../branding/logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="app.css">
+ 
+<!--repeating code -->  
+</head>
+  <script type="text/javascript">
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginRight = "250px";
+        document.getElementById("main").style.marginLeft = "-400px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        document.getElementById("toggle").style.display = "none";
+        document.getElementById("closebtn").style.display = "block";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginRight= "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.body.style.backgroundColor = "white";
+        document.getElementById("toggle").style.display = "block";
+        document.getElementById("closebtn").style.display = "none";
+      }
+  </script>
+
+<header>
+<!--Logo -->
+    <div class="header">
+      <a href="home.html"><img class="logo" src="../branding/logo.png"></a>
+    </div>
+
+<!--Navidation -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">More</a>
+      <a href="#">Plagiarism</a>
+      <a href="#">Account Settings</a>
+      <a href="index.html">Logout</a>
+    </div>
+
+    <div style="width: 50px; height: 1px; float: right">
+      <h1 id="toggle" style="font-size:30px;cursor:pointer;" onclick="openNav(); ">&#9776;</h1>
+    </div>
+</header>
+
+<!-- PAGE CONTENT -->
+<body id="main">
+
+	<div>
+		
+	</div>
+	<!-- SUB NAVIGATION -->
+	<div id="subnav">
+		<ul class="">
+            <li class="first_selected"><a href="home.html" title="Class Portfolio" style="color:#333333;">&nbsp;&nbsp;Class Portfolio&nbsp;&nbsp;</a></li>
+            
+            <li><a href="grades.html" title="My Grades" id="active">&nbsp;&nbsp;My Grades&nbsp;&nbsp;</a></li><!--tabindex="0" for yellow highlight-->
+            <li><a href="#" style="color:#333333;">&nbsp;&nbsp;MoreStuff&nbsp;&nbsp;</a></li>
+            <li class="last"><a href="#" title="Calendar" style="color:#333333;">MoreStuff</a></li>
+        </ul>
+        <div class="nothing"></div>
+    </div>
+
+	</div>
+
+
+    <div class="table-container" style="">
+      <table class="table">
+        <tr id="headers" style="background-color: #e6e6e6;border-color:#e6e6e6;">
+          <th style="border-radius: 10px 0 0 0;">Grade Item</th>
+          <th>Points</th>
+          <th>Grade</th>
+          <th style="border-radius: 0 10px 0 0;">Feedback</th>
+        </tr>
+        <tr id="section_name" style="background-color: #e6e6e6; border-color:#e6e6e6;">
+          <td colspan="2" ><h3>Assignments</h3></td>
+          <td colspan="2" >95%</td>
+        </tr>
+        <tr>
+          <td>Assignment 1</td>
+          <td>9.5 / 10</td>
+          <td>95 %</td>
+          <td>3. -5, not the same as the BNF rule due to the parentheses.</a></td>
+        </tr>
+        <tr>
+          <td>Assignment 2</td>
+          <td>-- / 10</td>
+          <td>-- %</td>
+          <td>--</a></td>
+        </tr>
+
+        <tr id="section_name" style="background-color: #e6e6e6; border-color:#e6e6e6;">
+          <td colspan="2" ><h3>Quizzes</h3></td>
+          <td colspan="2" >90%</td>
+        </tr>
+        <tr>
+          <td>Q 1</td>
+          <td>9.5 / 10</td>
+          <td>95 %</td>
+          <td> good job</a></td>
+        </tr>
+        <tr>
+          <td>Q 2</td>
+          <td>8.5 / 10</td>
+          <td>85 %</td>
+          <td> see me</a></td>
+        </tr>
+      </table>
+    </div>  
+
+        <!--aside id="sidebar">
+          <hr style="height:36.5pt; visibility:hidden;" />
+          <div class="dark">
+            <h3>Get A Quote</h3>
+            <form class="quote" action="mailto:tadnmangadze@gmail.com" method="post" enctype="text/plain">
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" name="name" placeholder="First name, Last name" required>
+                        </div>
+                        <div>
+                            <label>Email</label><br>
+                            <input type="text" name="Email" placeholder="you@email.com" required>
+                        </div>
+                        <div>
+                            <label>Message</label><br>
+                            <textarea type="text" name="Message" placeholder="..." required></textarea>
+                        </div>
+
+                        <button class="button_1" type="submit">Send</button>
+                    </form>
+          </div>
+        </aside-->
+      </div>
+    </section>
+
+    <section id="employment" style="border-top: none;">
+   
+</body>
+</html>
