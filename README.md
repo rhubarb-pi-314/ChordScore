@@ -1,4 +1,4 @@
-# ChordScore
+# ChordScore - Music Assignment Auto Grader.
 
 By: 
 
