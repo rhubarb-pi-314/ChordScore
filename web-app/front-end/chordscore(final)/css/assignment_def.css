@@ -1,0 +1,19 @@
+#div {
+    border: 2px dashed #000;
+    position: absolute;
+}
+
+#div2 {
+    border: 2px dashed #000;
+    position: absolute;
+    background-color: lightgreen;
+    opacity: 0.2;
+}
+
+.active {
+  background-color: #5ca08e;  
+}
+
+.inactive {
+  background-color: grey;
+}
